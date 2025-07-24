@@ -1,0 +1,48 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefefe;
+  color: #333;
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  color: #5b4cd9;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.semester {
+  margin-bottom: 2rem;
+  border-left: 5px solid #dadada;
+  padding-left: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  padding: 0.7rem 1rem;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+  background-color: #e2e2ff;
+}
+
+li.approved {
+  background-color: #c6f6d5;
+  text-decoration: line-through;
+}
